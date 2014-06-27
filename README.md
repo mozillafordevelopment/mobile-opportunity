@@ -1,6 +1,7 @@
 Mobile Opportunity Project
 ============
 
+
 This Github repo is used to track assets and tasks related to the [mobile opportunity research project](https://mozilla.github.io/mobile-opportunity/).
 
 The website content is published by Github Pages, after processing by the Harp static site generator. 
