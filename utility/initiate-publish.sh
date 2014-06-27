@@ -12,7 +12,7 @@ git rm -rf .
 cp -Rf ../_built_website/* .
 git add -f .
 git commit -m "Lastest harp compiled site on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to gh-pages"
-git remote add website https://${GH_TOKEN}@github.com/mozillafordevelopment/mozillafordevelopment.github.io.git
+git remote add website https://github.com/mozillafordevelopment/mozillafordevelopment.github.io.git
 git push -fq origin website > /dev/null
 
 echo -e "Published website to master branch of pages repo.\n"
