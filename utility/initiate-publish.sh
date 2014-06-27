@@ -10,11 +10,12 @@ echo "https://${TOKEN}:@github.com" > .git/credentials
 git config --global user.name "davidascher"
 git config --global user.email "david.ascher@gmail.com"
 
+git checkout master
 git rm -rf .
 cp -Rf ../_built_website/* .
 git add -f .
 echo -e "Publishing website...\n"
-git commit -m "Lastest harp compiled site on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to gh-pages"
+git commit -m "Lastest harp compiled site on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to master"
 git push -fq origin master > /dev/null
 git branch
 echo -e "Published website to master.\n"
