@@ -1,6 +1,7 @@
 Mobile Opportunity Project
 ============
 
+[![Build Status](https://travis-ci.org/mozillafordevelopment/mozillafordevelopment.github.io.svg?branch=website)](https://travis-ci.org/mozillafordevelopment/mozillafordevelopment.github.io)
 
 This Github repo is used to track assets and tasks related to the [mobile opportunity research project](https://mozilla.github.io/mobile-opportunity/).
 
