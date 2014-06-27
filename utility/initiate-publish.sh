@@ -5,7 +5,7 @@ echo -e "Publishing website...\n"
 #cd $HOME
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "travis-ci"
-git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/mozillafordevelopment/mobile-opportunity gh-pages > /dev/null
+git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/mozillafordevelopment/mozillafordevelopment.github.io gh-pages > /dev/null
 
 cd gh-pages
 git rm -rf .
