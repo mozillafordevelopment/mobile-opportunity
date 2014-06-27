@@ -3,14 +3,14 @@
 
 #cd $HOME
 echo -e "Getting branch...\n"
-git config user.name "davidascher"
-git config user.email "david.ascher@gmail.com"
 git clone --quiet --branch=website https://${GH_TOKEN}@github.com/mozillafordevelopment/mozillafordevelopment.github.io website > /dev/null
 
+cd website
 git config credential.helper "store --file=.git/credentials"
 echo "https://${TOKEN}:@github.com" > .git/credentials
+git config --global user.name "davidascher"
+git config --global user.email "david.ascher@gmail.com"
 
-cd website
 git rm -rf .
 cp -Rf ../_built_website/* .
 git add -f .
