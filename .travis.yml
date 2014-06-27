@@ -3,7 +3,6 @@ branches:
   - website
 env:
   global:
-  - secure: APJlMhvfTnqmYtQA9xev4HFlco1ucw7xikUaL4Bwx9gbsDGrzSWgJYDmMYu2mBgc6s+rSD8OFm51lVDtfXVdfmMs4dsuOAWxcXGPnr3SCmDovmbpIqdQXV3c2k1nGSVdhsH2yvA0rhWzGVTbWQxzuyHlBteRhFKOmJreXilpzL4=
   - secure: ijrwPMdp+NPi5vbMCz9bW6aoF9S59aX/UYCHluv1nYRaQ44CdIA/vU0wdMXCc3Z9KdvoFScrFwjxXwpOm6f8Zs0FJyJcjY5rCCtd51J/ExD46MDNfbHjd99g/ghLv2OIwuMLgdNIWha4pfNjeuC6uKJuw+Wkfrnun/3NHVjao1g=
 language: node_js
 node_js:
