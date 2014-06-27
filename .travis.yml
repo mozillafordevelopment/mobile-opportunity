@@ -1,3 +1,7 @@
+branches:
+  only:
+    - website
+    
 env:
   global:
     secure: APJlMhvfTnqmYtQA9xev4HFlco1ucw7xikUaL4Bwx9gbsDGrzSWgJYDmMYu2mBgc6s+rSD8OFm51lVDtfXVdfmMs4dsuOAWxcXGPnr3SCmDovmbpIqdQXV3c2k1nGSVdhsH2yvA0rhWzGVTbWQxzuyHlBteRhFKOmJreXilpzL4=
