@@ -16,6 +16,6 @@ cp -Rf ../_built_website/* .
 git add -f .
 echo -e "Publishing website...\n"
 git commit -m "Lastest harp compiled site on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to gh-pages"
-git push origin master > /dev/null
+git push -fq origin master > /dev/null
 
 echo -e "Published website to master.\n"
